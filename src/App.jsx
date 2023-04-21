@@ -8,6 +8,8 @@ import DarkmodeDrop from "./components/DarkmodeDrop";
 import DarkmodeToggle from "./components/DarkmodeToggle";
 import Modal from "./components/Modal";
 import NavLinks from "./components/NavLinks";
+import Input from "./components/Input";
+import Buttons from "./components/Buttons";
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -19,9 +21,11 @@ const App = () => {
       <div className="absolute top-0">
         <DarkmodeDrop />
       </div>
+      {/* <Input /> */}
+      <Buttons />
       {/* <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} /> */}
       {/* <YoutubeTags /> */}
-      <DropDown />
+      {/* <DropDown /> */}
       {/* <Switch /> */}
       {/* <DarkmodeDrop /> */}
       {/* <DarkmodeToggle /> */}
